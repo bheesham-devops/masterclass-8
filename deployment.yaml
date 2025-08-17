@@ -4,6 +4,7 @@ metadata:
   name: dev-my-app
 spec:
   replicas: 3
+  replicas: 3
   selector:
     matchLabels:
       app: my-app
@@ -20,3 +21,7 @@ spec:
 
 dummy commit main 1
 dummy commit main 2
+        - containerPort: 8080
+
+dummy commit feature03 1
+dummy commit feature03 2
