@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: dev-my-app
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: my-app
@@ -16,4 +16,7 @@ spec:
       - name: my-app
         image: my-app:latest
         ports:
-        - containerPort: 8080
+        - containerPort: 80
+
+dummy commit main 1
+dummy commit main 2
